@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'GUI_designKTzzVw.ui'
+## Form generated from reading UI file 'GUI_designwTeYBr.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -17,7 +17,9 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(797, 702)
+        MainWindow.resize(859, 854)
+        MainWindow.setMinimumSize(QSize(0, 0))
+        MainWindow.setMaximumSize(QSize(16777215, 16777215))
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout_3 = QHBoxLayout(self.centralwidget)
@@ -39,7 +41,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 777, 682))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 814, 1091))
         self.horizontalLayout_2 = QHBoxLayout(self.scrollAreaWidgetContents)
         self.horizontalLayout_2.setSpacing(0)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
@@ -157,6 +159,7 @@ class Ui_MainWindow(object):
 
         self.frame_54 = QFrame(self.frame_46)
         self.frame_54.setObjectName(u"frame_54")
+        self.frame_54.setMinimumSize(QSize(0, 0))
         self.frame_54.setMaximumSize(QSize(16777215, 16777215))
         self.frame_54.setFrameShape(QFrame.StyledPanel)
         self.frame_54.setFrameShadow(QFrame.Raised)
@@ -177,8 +180,8 @@ class Ui_MainWindow(object):
 
         self.label_18 = QLabel(self.frame_48)
         self.label_18.setObjectName(u"label_18")
-        self.label_18.setMinimumSize(QSize(150, 0))
-        self.label_18.setMaximumSize(QSize(150, 16777215))
+        self.label_18.setMinimumSize(QSize(200, 0))
+        self.label_18.setMaximumSize(QSize(200, 16777215))
         self.label_18.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_26.addWidget(self.label_18)
@@ -217,21 +220,21 @@ class Ui_MainWindow(object):
 
         self.label_19 = QLabel(self.frame_55)
         self.label_19.setObjectName(u"label_19")
-        self.label_19.setMinimumSize(QSize(150, 0))
-        self.label_19.setMaximumSize(QSize(150, 16777215))
+        self.label_19.setMinimumSize(QSize(200, 0))
+        self.label_19.setMaximumSize(QSize(200, 16777215))
         self.label_19.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_27.addWidget(self.label_19)
 
-        self.password_register = QLineEdit(self.frame_55)
-        self.password_register.setObjectName(u"password_register")
-        self.password_register.setMinimumSize(QSize(0, 30))
-        self.password_register.setMaximumSize(QSize(410, 16777215))
-        self.password_register.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
+        self.username_register = QLineEdit(self.frame_55)
+        self.username_register.setObjectName(u"username_register")
+        self.username_register.setMinimumSize(QSize(0, 30))
+        self.username_register.setMaximumSize(QSize(410, 16777215))
+        self.username_register.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
 "font: 11pt \"Century Gothic\";")
-        self.password_register.setEchoMode(QLineEdit.Password)
+        self.username_register.setEchoMode(QLineEdit.Normal)
 
-        self.horizontalLayout_27.addWidget(self.password_register)
+        self.horizontalLayout_27.addWidget(self.username_register)
 
         self.frame_57 = QFrame(self.frame_55)
         self.frame_57.setObjectName(u"frame_57")
@@ -242,6 +245,129 @@ class Ui_MainWindow(object):
 
 
         self.verticalLayout_8.addWidget(self.frame_55)
+
+        self.frame_108 = QFrame(self.frame_54)
+        self.frame_108.setObjectName(u"frame_108")
+        self.frame_108.setFrameShape(QFrame.StyledPanel)
+        self.frame_108.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_56 = QHBoxLayout(self.frame_108)
+        self.horizontalLayout_56.setObjectName(u"horizontalLayout_56")
+        self.frame_111 = QFrame(self.frame_108)
+        self.frame_111.setObjectName(u"frame_111")
+        self.frame_111.setFrameShape(QFrame.StyledPanel)
+        self.frame_111.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_56.addWidget(self.frame_111)
+
+        self.label_26 = QLabel(self.frame_108)
+        self.label_26.setObjectName(u"label_26")
+        self.label_26.setMinimumSize(QSize(200, 0))
+        self.label_26.setMaximumSize(QSize(200, 16777215))
+        self.label_26.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
+
+        self.horizontalLayout_56.addWidget(self.label_26)
+
+        self.firstname_register = QLineEdit(self.frame_108)
+        self.firstname_register.setObjectName(u"firstname_register")
+        self.firstname_register.setMinimumSize(QSize(0, 30))
+        self.firstname_register.setMaximumSize(QSize(410, 16777215))
+        self.firstname_register.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
+"font: 11pt \"Century Gothic\";")
+        self.firstname_register.setEchoMode(QLineEdit.Normal)
+
+        self.horizontalLayout_56.addWidget(self.firstname_register)
+
+        self.frame_116 = QFrame(self.frame_108)
+        self.frame_116.setObjectName(u"frame_116")
+        self.frame_116.setFrameShape(QFrame.StyledPanel)
+        self.frame_116.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_56.addWidget(self.frame_116)
+
+
+        self.verticalLayout_8.addWidget(self.frame_108)
+
+        self.frame_117 = QFrame(self.frame_54)
+        self.frame_117.setObjectName(u"frame_117")
+        self.frame_117.setFrameShape(QFrame.StyledPanel)
+        self.frame_117.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_58 = QHBoxLayout(self.frame_117)
+        self.horizontalLayout_58.setObjectName(u"horizontalLayout_58")
+        self.frame_118 = QFrame(self.frame_117)
+        self.frame_118.setObjectName(u"frame_118")
+        self.frame_118.setFrameShape(QFrame.StyledPanel)
+        self.frame_118.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_58.addWidget(self.frame_118)
+
+        self.label_28 = QLabel(self.frame_117)
+        self.label_28.setObjectName(u"label_28")
+        self.label_28.setMinimumSize(QSize(200, 0))
+        self.label_28.setMaximumSize(QSize(200, 16777215))
+        self.label_28.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
+
+        self.horizontalLayout_58.addWidget(self.label_28)
+
+        self.lastname_register = QLineEdit(self.frame_117)
+        self.lastname_register.setObjectName(u"lastname_register")
+        self.lastname_register.setMinimumSize(QSize(0, 30))
+        self.lastname_register.setMaximumSize(QSize(410, 16777215))
+        self.lastname_register.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
+"font: 11pt \"Century Gothic\";")
+        self.lastname_register.setEchoMode(QLineEdit.Normal)
+
+        self.horizontalLayout_58.addWidget(self.lastname_register)
+
+        self.frame_126 = QFrame(self.frame_117)
+        self.frame_126.setObjectName(u"frame_126")
+        self.frame_126.setFrameShape(QFrame.StyledPanel)
+        self.frame_126.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_58.addWidget(self.frame_126)
+
+
+        self.verticalLayout_8.addWidget(self.frame_117)
+
+        self.frame_99 = QFrame(self.frame_54)
+        self.frame_99.setObjectName(u"frame_99")
+        self.frame_99.setFrameShape(QFrame.StyledPanel)
+        self.frame_99.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_49 = QHBoxLayout(self.frame_99)
+        self.horizontalLayout_49.setObjectName(u"horizontalLayout_49")
+        self.frame_65 = QFrame(self.frame_99)
+        self.frame_65.setObjectName(u"frame_65")
+        self.frame_65.setFrameShape(QFrame.StyledPanel)
+        self.frame_65.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_49.addWidget(self.frame_65)
+
+        self.label_25 = QLabel(self.frame_99)
+        self.label_25.setObjectName(u"label_25")
+        self.label_25.setMinimumSize(QSize(200, 0))
+        self.label_25.setMaximumSize(QSize(200, 16777215))
+        self.label_25.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
+
+        self.horizontalLayout_49.addWidget(self.label_25)
+
+        self.password_register = QLineEdit(self.frame_99)
+        self.password_register.setObjectName(u"password_register")
+        self.password_register.setMinimumSize(QSize(0, 30))
+        self.password_register.setMaximumSize(QSize(410, 16777215))
+        self.password_register.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
+"font: 11pt \"Century Gothic\";")
+        self.password_register.setEchoMode(QLineEdit.Password)
+
+        self.horizontalLayout_49.addWidget(self.password_register)
+
+        self.frame_109 = QFrame(self.frame_99)
+        self.frame_109.setObjectName(u"frame_109")
+        self.frame_109.setFrameShape(QFrame.StyledPanel)
+        self.frame_109.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_49.addWidget(self.frame_109)
+
+
+        self.verticalLayout_8.addWidget(self.frame_99)
 
         self.frame_58 = QFrame(self.frame_54)
         self.frame_58.setObjectName(u"frame_58")
@@ -258,8 +384,8 @@ class Ui_MainWindow(object):
 
         self.label_22 = QLabel(self.frame_58)
         self.label_22.setObjectName(u"label_22")
-        self.label_22.setMinimumSize(QSize(150, 0))
-        self.label_22.setMaximumSize(QSize(150, 16777215))
+        self.label_22.setMinimumSize(QSize(200, 0))
+        self.label_22.setMaximumSize(QSize(200, 16777215))
         self.label_22.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_30.addWidget(self.label_22)
@@ -335,6 +461,7 @@ class Ui_MainWindow(object):
 
         self.frame_61 = QFrame(self.frame_59)
         self.frame_61.setObjectName(u"frame_61")
+        self.frame_61.setMinimumSize(QSize(0, 40))
         self.frame_61.setMaximumSize(QSize(16777215, 38))
         self.frame_61.setFrameShape(QFrame.StyledPanel)
         self.frame_61.setFrameShadow(QFrame.Raised)
@@ -350,7 +477,7 @@ class Ui_MainWindow(object):
 
         self.label_20 = QLabel(self.frame_61)
         self.label_20.setObjectName(u"label_20")
-        self.label_20.setMinimumSize(QSize(220, 0))
+        self.label_20.setMinimumSize(QSize(220, 30))
         self.label_20.setMaximumSize(QSize(16777215, 20))
         self.label_20.setStyleSheet(u"font: 11pt \"Century Gothic\";")
         self.label_20.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
@@ -359,6 +486,7 @@ class Ui_MainWindow(object):
 
         self.loginbutton_register = QPushButton(self.frame_61)
         self.loginbutton_register.setObjectName(u"loginbutton_register")
+        self.loginbutton_register.setMinimumSize(QSize(0, 30))
         self.loginbutton_register.setMaximumSize(QSize(16777215, 16777215))
         self.loginbutton_register.setCursor(QCursor(Qt.PointingHandCursor))
         self.loginbutton_register.setStyleSheet(u"font: 12pt \"Bahnschrift SemiCondensed\";\n"
@@ -372,16 +500,15 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_14.addWidget(self.frame_59)
 
+        self.frame_110 = QFrame(self.frame_45)
+        self.frame_110.setObjectName(u"frame_110")
+        self.frame_110.setFrameShape(QFrame.StyledPanel)
+        self.frame_110.setFrameShadow(QFrame.Raised)
+
+        self.verticalLayout_14.addWidget(self.frame_110)
+
 
         self.verticalLayout_16.addWidget(self.frame_45)
-
-        self.frame_65 = QFrame(self.register_2)
-        self.frame_65.setObjectName(u"frame_65")
-        self.frame_65.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
-        self.frame_65.setFrameShape(QFrame.StyledPanel)
-        self.frame_65.setFrameShadow(QFrame.Raised)
-
-        self.verticalLayout_16.addWidget(self.frame_65)
 
         self.body.addWidget(self.register_2)
         self.login = QWidget()
@@ -514,20 +641,20 @@ class Ui_MainWindow(object):
 
         self.label = QLabel(self.frame_22)
         self.label.setObjectName(u"label")
-        self.label.setMinimumSize(QSize(150, 0))
-        self.label.setMaximumSize(QSize(150, 16777215))
-        self.label.setStyleSheet(u"font: 14pt \"Bahnschrift\";")
+        self.label.setMinimumSize(QSize(200, 0))
+        self.label.setMaximumSize(QSize(200, 16777215))
+        self.label.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_17.addWidget(self.label)
 
-        self.email_login = QLineEdit(self.frame_22)
-        self.email_login.setObjectName(u"email_login")
-        self.email_login.setMinimumSize(QSize(0, 30))
-        self.email_login.setMaximumSize(QSize(410, 16777215))
-        self.email_login.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
+        self.useremail_login = QLineEdit(self.frame_22)
+        self.useremail_login.setObjectName(u"useremail_login")
+        self.useremail_login.setMinimumSize(QSize(0, 30))
+        self.useremail_login.setMaximumSize(QSize(410, 16777215))
+        self.useremail_login.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
 "font: 11pt \"Century Gothic\";")
 
-        self.horizontalLayout_17.addWidget(self.email_login)
+        self.horizontalLayout_17.addWidget(self.useremail_login)
 
         self.frame_26 = QFrame(self.frame_22)
         self.frame_26.setObjectName(u"frame_26")
@@ -554,8 +681,8 @@ class Ui_MainWindow(object):
 
         self.label_12 = QLabel(self.frame_23)
         self.label_12.setObjectName(u"label_12")
-        self.label_12.setMinimumSize(QSize(150, 0))
-        self.label_12.setMaximumSize(QSize(150, 16777215))
+        self.label_12.setMinimumSize(QSize(200, 0))
+        self.label_12.setMaximumSize(QSize(200, 16777215))
         self.label_12.setStyleSheet(u"font: 14pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_16.addWidget(self.label_12)
@@ -773,7 +900,7 @@ class Ui_MainWindow(object):
         self.label_3 = QLabel(self.frame_9)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setMaximumSize(QSize(61, 31))
-        self.label_3.setStyleSheet(u"font: 13pt \"Bahnschrift SemiCondensed\";")
+        self.label_3.setStyleSheet(u"font: 12pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_5.addWidget(self.label_3)
 
@@ -782,9 +909,10 @@ class Ui_MainWindow(object):
         self.sortmovie_movielist.addItem("")
         self.sortmovie_movielist.addItem("")
         self.sortmovie_movielist.setObjectName(u"sortmovie_movielist")
+        self.sortmovie_movielist.setMinimumSize(QSize(200, 0))
         self.sortmovie_movielist.setMaximumSize(QSize(171, 31))
         self.sortmovie_movielist.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
-"font: 12pt \"Century Gothic\";")
+"font: 11pt \"Century Gothic\";")
 
         self.horizontalLayout_5.addWidget(self.sortmovie_movielist)
 
@@ -798,15 +926,16 @@ class Ui_MainWindow(object):
         self.label_11 = QLabel(self.frame_9)
         self.label_11.setObjectName(u"label_11")
         self.label_11.setMaximumSize(QSize(61, 31))
-        self.label_11.setStyleSheet(u"font: 13pt \"Bahnschrift SemiCondensed\";")
+        self.label_11.setStyleSheet(u"font: 12pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_5.addWidget(self.label_11)
 
         self.searchmovie_movielist = QLineEdit(self.frame_9)
         self.searchmovie_movielist.setObjectName(u"searchmovie_movielist")
+        self.searchmovie_movielist.setMinimumSize(QSize(200, 0))
         self.searchmovie_movielist.setMaximumSize(QSize(171, 31))
         self.searchmovie_movielist.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
-"font: 12pt \"Century Gothic\";")
+"font: 11pt \"Century Gothic\";")
 
         self.horizontalLayout_5.addWidget(self.searchmovie_movielist)
 
@@ -919,9 +1048,7 @@ class Ui_MainWindow(object):
         self.moviedetail = QWidget()
         self.moviedetail.setObjectName(u"moviedetail")
         self.verticalLayout_4 = QVBoxLayout(self.moviedetail)
-        self.verticalLayout_4.setSpacing(2)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.verticalLayout_4.setContentsMargins(9, 9, 9, 9)
         self.frame_3 = QFrame(self.moviedetail)
         self.frame_3.setObjectName(u"frame_3")
         self.frame_3.setMinimumSize(QSize(0, 81))
@@ -1108,8 +1235,106 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_4.addWidget(self.frame_2)
 
+        self.myreviewframe_moviedetails = QFrame(self.moviedetail)
+        self.myreviewframe_moviedetails.setObjectName(u"myreviewframe_moviedetails")
+        self.myreviewframe_moviedetails.setMinimumSize(QSize(0, 0))
+        self.myreviewframe_moviedetails.setMaximumSize(QSize(16777215, 163))
+        self.myreviewframe_moviedetails.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
+        self.myreviewframe_moviedetails.setFrameShape(QFrame.StyledPanel)
+        self.myreviewframe_moviedetails.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_35 = QVBoxLayout(self.myreviewframe_moviedetails)
+        self.verticalLayout_35.setSpacing(0)
+        self.verticalLayout_35.setObjectName(u"verticalLayout_35")
+        self.verticalLayout_35.setContentsMargins(0, 0, 0, 0)
+        self.frame_112 = QFrame(self.myreviewframe_moviedetails)
+        self.frame_112.setObjectName(u"frame_112")
+        self.frame_112.setFrameShape(QFrame.StyledPanel)
+        self.frame_112.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_51 = QHBoxLayout(self.frame_112)
+        self.horizontalLayout_51.setObjectName(u"horizontalLayout_51")
+        self.myrating_moviedetails = QLabel(self.frame_112)
+        self.myrating_moviedetails.setObjectName(u"myrating_moviedetails")
+        self.myrating_moviedetails.setStyleSheet(u"font: 16pt \"Bahnschrift SemiCondensed\";")
+
+        self.horizontalLayout_51.addWidget(self.myrating_moviedetails)
+
+        self.editreviewbutton_moviedetails = QPushButton(self.frame_112)
+        self.editreviewbutton_moviedetails.setObjectName(u"editreviewbutton_moviedetails")
+        self.editreviewbutton_moviedetails.setMinimumSize(QSize(75, 31))
+        self.editreviewbutton_moviedetails.setMaximumSize(QSize(75, 31))
+        self.editreviewbutton_moviedetails.setStyleSheet(u"QPushButton{\n"
+"	color: rgb(0, 0, 0);\n"
+"	background-color: rgba(255, 255, 255, 0);\n"
+"	border-radius: 15px;\n"
+"	font: 10pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"	color: rgb(0, 0, 0);\n"
+"	background-color: rgb(0, 0, 0, 30);\n"
+"	border-radius: 15px;\n"
+"	font: 10pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"\n"
+"\n"
+"")
+
+        self.horizontalLayout_51.addWidget(self.editreviewbutton_moviedetails)
+
+        self.deletereviewbutton_moviedetails = QPushButton(self.frame_112)
+        self.deletereviewbutton_moviedetails.setObjectName(u"deletereviewbutton_moviedetails")
+        self.deletereviewbutton_moviedetails.setMinimumSize(QSize(75, 31))
+        self.deletereviewbutton_moviedetails.setMaximumSize(QSize(75, 31))
+        self.deletereviewbutton_moviedetails.setStyleSheet(u"QPushButton{\n"
+"	color: rgb(0, 0, 0);\n"
+"	background-color: rgba(255, 255, 255, 0);\n"
+"	border-radius: 15px;\n"
+"	font: 10pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"	color: rgb(0, 0, 0);\n"
+"	background-color: rgb(0, 0, 0, 30);\n"
+"	border-radius: 15px;\n"
+"	font: 10pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"\n"
+"\n"
+"")
+
+        self.horizontalLayout_51.addWidget(self.deletereviewbutton_moviedetails)
+
+
+        self.verticalLayout_35.addWidget(self.frame_112)
+
+        self.scrollArea_3 = QScrollArea(self.myreviewframe_moviedetails)
+        self.scrollArea_3.setObjectName(u"scrollArea_3")
+        self.scrollArea_3.setMaximumSize(QSize(16777215, 121))
+        self.scrollArea_3.setWidgetResizable(True)
+        self.scrollAreaWidgetContents_3 = QWidget()
+        self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 792, 87))
+        self.horizontalLayout_50 = QHBoxLayout(self.scrollAreaWidgetContents_3)
+        self.horizontalLayout_50.setObjectName(u"horizontalLayout_50")
+        self.myreviewdesc_moviedetails = QLabel(self.scrollAreaWidgetContents_3)
+        self.myreviewdesc_moviedetails.setObjectName(u"myreviewdesc_moviedetails")
+        self.myreviewdesc_moviedetails.setMaximumSize(QSize(16777215, 103))
+        self.myreviewdesc_moviedetails.setStyleSheet(u"font: 11pt \"Century Gothic\";")
+        self.myreviewdesc_moviedetails.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.myreviewdesc_moviedetails.setWordWrap(True)
+
+        self.horizontalLayout_50.addWidget(self.myreviewdesc_moviedetails)
+
+        self.scrollArea_3.setWidget(self.scrollAreaWidgetContents_3)
+
+        self.verticalLayout_35.addWidget(self.scrollArea_3)
+
+
+        self.verticalLayout_4.addWidget(self.myreviewframe_moviedetails)
+
         self.frame_10 = QFrame(self.moviedetail)
         self.frame_10.setObjectName(u"frame_10")
+        self.frame_10.setMinimumSize(QSize(0, 500))
         self.frame_10.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
         self.frame_10.setFrameShape(QFrame.StyledPanel)
         self.frame_10.setFrameShadow(QFrame.Raised)
@@ -1128,7 +1353,7 @@ class Ui_MainWindow(object):
         self.label_9.setMinimumSize(QSize(0, 31))
         self.label_9.setMaximumSize(QSize(16777215, 31))
         self.label_9.setStyleSheet(u"font: 15pt \"Century Gothic\";\n"
-"font: 20pt \"Bahnschrift SemiCondensed\";")
+"font: 18pt \"Bahnschrift SemiCondensed\";")
 
         self.horizontalLayout_6.addWidget(self.label_9)
 
@@ -1163,6 +1388,7 @@ class Ui_MainWindow(object):
         QListWidgetItem(self.reviewslist_moviedetails)
         QListWidgetItem(self.reviewslist_moviedetails)
         self.reviewslist_moviedetails.setObjectName(u"reviewslist_moviedetails")
+        self.reviewslist_moviedetails.setMinimumSize(QSize(0, 0))
         self.reviewslist_moviedetails.setStyleSheet(u"font: 9.5pt \"Century Gothic\";")
         self.reviewslist_moviedetails.setProperty("isWrapping", False)
         self.reviewslist_moviedetails.setSortingEnabled(False)
@@ -1171,6 +1397,40 @@ class Ui_MainWindow(object):
 
 
         self.verticalLayout_4.addWidget(self.frame_10)
+
+        self.writereviewframe_moviedetails = QFrame(self.moviedetail)
+        self.writereviewframe_moviedetails.setObjectName(u"writereviewframe_moviedetails")
+        self.writereviewframe_moviedetails.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
+        self.writereviewframe_moviedetails.setFrameShape(QFrame.StyledPanel)
+        self.writereviewframe_moviedetails.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_55 = QHBoxLayout(self.writereviewframe_moviedetails)
+        self.horizontalLayout_55.setObjectName(u"horizontalLayout_55")
+        self.writereviewbutton_moviedetails = QPushButton(self.writereviewframe_moviedetails)
+        self.writereviewbutton_moviedetails.setObjectName(u"writereviewbutton_moviedetails")
+        self.writereviewbutton_moviedetails.setMinimumSize(QSize(150, 40))
+        self.writereviewbutton_moviedetails.setMaximumSize(QSize(150, 40))
+        self.writereviewbutton_moviedetails.setStyleSheet(u"QPushButton {	\n"
+"	border-radius: 20px;\n"
+"	background-color: rgba(102, 97, 234, 70);\n"
+"	color: rgb(0,0,0);\n"
+"	font: 12pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"QPushButton:hover {	\n"
+"	background-color: rgba(72, 67, 181, 80);\n"
+"	color: rgb(255,255,255);\n"
+"	font: 12pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"QPushButton:pressed {	\n"
+"	background-color: rgba(72, 67, 181, 130);\n"
+"	color: rgb(255,255,255);\n"
+"	font: 12pt \"Bahnschrift SemiCondensed\";\n"
+"}\n"
+"")
+
+        self.horizontalLayout_55.addWidget(self.writereviewbutton_moviedetails)
+
+
+        self.verticalLayout_4.addWidget(self.writereviewframe_moviedetails)
 
         self.body.addWidget(self.moviedetail)
         self.profile = QWidget()
@@ -1320,7 +1580,8 @@ class Ui_MainWindow(object):
 
         self.frame_72 = QFrame(self.frame_74)
         self.frame_72.setObjectName(u"frame_72")
-        self.frame_72.setMaximumSize(QSize(16777215, 36))
+        self.frame_72.setMinimumSize(QSize(0, 50))
+        self.frame_72.setMaximumSize(QSize(16777215, 16777215))
         self.frame_72.setFrameShape(QFrame.StyledPanel)
         self.frame_72.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_32 = QHBoxLayout(self.frame_72)
@@ -1448,13 +1709,6 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_33.addWidget(self.frame_78)
 
-        self.frame_77 = QFrame(self.frame_73)
-        self.frame_77.setObjectName(u"frame_77")
-        self.frame_77.setFrameShape(QFrame.StyledPanel)
-        self.frame_77.setFrameShadow(QFrame.Raised)
-
-        self.horizontalLayout_33.addWidget(self.frame_77)
-
 
         self.verticalLayout_25.addWidget(self.frame_73)
 
@@ -1501,13 +1755,13 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_19.addWidget(self.emailinfo_profile)
 
-        self.emailinfo_profile_2 = QLabel(self.frame_80)
-        self.emailinfo_profile_2.setObjectName(u"emailinfo_profile_2")
-        self.emailinfo_profile_2.setMinimumSize(QSize(0, 0))
-        self.emailinfo_profile_2.setMaximumSize(QSize(16777215, 16777215))
-        self.emailinfo_profile_2.setStyleSheet(u"font: 12pt \"Century Gothic\";")
+        self.usernameinfo_profile = QLabel(self.frame_80)
+        self.usernameinfo_profile.setObjectName(u"usernameinfo_profile")
+        self.usernameinfo_profile.setMinimumSize(QSize(0, 0))
+        self.usernameinfo_profile.setMaximumSize(QSize(16777215, 16777215))
+        self.usernameinfo_profile.setStyleSheet(u"font: 12pt \"Century Gothic\";")
 
-        self.verticalLayout_19.addWidget(self.emailinfo_profile_2)
+        self.verticalLayout_19.addWidget(self.usernameinfo_profile)
 
 
         self.verticalLayout_23.addWidget(self.frame_80)
@@ -1545,8 +1799,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_36.setObjectName(u"horizontalLayout_36")
         self.label_35 = QLabel(self.frame_82)
         self.label_35.setObjectName(u"label_35")
-        self.label_35.setMinimumSize(QSize(150, 0))
-        self.label_35.setMaximumSize(QSize(150, 16777215))
+        self.label_35.setMinimumSize(QSize(200, 0))
+        self.label_35.setMaximumSize(QSize(200, 16777215))
         self.label_35.setStyleSheet(u"font: 12pt \"Century Gothic\";")
 
         self.horizontalLayout_36.addWidget(self.label_35)
@@ -1557,6 +1811,7 @@ class Ui_MainWindow(object):
         self.password_profile.setMaximumSize(QSize(410, 16777215))
         self.password_profile.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
 "font: 11pt \"Century Gothic\";")
+        self.password_profile.setEchoMode(QLineEdit.Password)
 
         self.horizontalLayout_36.addWidget(self.password_profile)
 
@@ -1579,8 +1834,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_35.setObjectName(u"horizontalLayout_35")
         self.label_34 = QLabel(self.frame_91)
         self.label_34.setObjectName(u"label_34")
-        self.label_34.setMinimumSize(QSize(150, 0))
-        self.label_34.setMaximumSize(QSize(150, 16777215))
+        self.label_34.setMinimumSize(QSize(200, 0))
+        self.label_34.setMaximumSize(QSize(200, 16777215))
         self.label_34.setStyleSheet(u"font: 12pt \"Century Gothic\";")
 
         self.horizontalLayout_35.addWidget(self.label_34)
@@ -1591,6 +1846,7 @@ class Ui_MainWindow(object):
         self.newpassword_profile.setMaximumSize(QSize(410, 16777215))
         self.newpassword_profile.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
 "font: 11pt \"Century Gothic\";")
+        self.newpassword_profile.setEchoMode(QLineEdit.Password)
 
         self.horizontalLayout_35.addWidget(self.newpassword_profile)
 
@@ -1612,8 +1868,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_54.setObjectName(u"horizontalLayout_54")
         self.label_43 = QLabel(self.frame_121)
         self.label_43.setObjectName(u"label_43")
-        self.label_43.setMinimumSize(QSize(150, 0))
-        self.label_43.setMaximumSize(QSize(150, 16777215))
+        self.label_43.setMinimumSize(QSize(200, 0))
+        self.label_43.setMaximumSize(QSize(200, 16777215))
         self.label_43.setStyleSheet(u"font: 12pt \"Century Gothic\";")
 
         self.horizontalLayout_54.addWidget(self.label_43)
@@ -1624,6 +1880,7 @@ class Ui_MainWindow(object):
         self.confirmnewpassword_profile.setMaximumSize(QSize(410, 16777215))
         self.confirmnewpassword_profile.setStyleSheet(u"background-color: rgba(255, 255, 255, 255);\n"
 "font: 11pt \"Century Gothic\";")
+        self.confirmnewpassword_profile.setEchoMode(QLineEdit.Password)
 
         self.horizontalLayout_54.addWidget(self.confirmnewpassword_profile)
 
@@ -1823,11 +2080,11 @@ class Ui_MainWindow(object):
         self.verticalLayout_32.addWidget(self.frame_120)
 
         self.body.addWidget(self.myreviews)
-        self.page = QWidget()
-        self.page.setObjectName(u"page")
-        self.verticalLayout_30 = QVBoxLayout(self.page)
+        self.reviewlist = QWidget()
+        self.reviewlist.setObjectName(u"reviewlist")
+        self.verticalLayout_30 = QVBoxLayout(self.reviewlist)
         self.verticalLayout_30.setObjectName(u"verticalLayout_30")
-        self.frame_79 = QFrame(self.page)
+        self.frame_79 = QFrame(self.reviewlist)
         self.frame_79.setObjectName(u"frame_79")
         self.frame_79.setMinimumSize(QSize(0, 81))
         self.frame_79.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
@@ -1925,7 +2182,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_30.addWidget(self.frame_79)
 
-        self.myrewiewframe_allreviews = QFrame(self.page)
+        self.myrewiewframe_allreviews = QFrame(self.reviewlist)
         self.myrewiewframe_allreviews.setObjectName(u"myrewiewframe_allreviews")
         self.myrewiewframe_allreviews.setMaximumSize(QSize(16777215, 170))
         self.myrewiewframe_allreviews.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
@@ -2002,7 +2259,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 759, 121))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 792, 115))
         self.horizontalLayout_47 = QHBoxLayout(self.scrollAreaWidgetContents_2)
         self.horizontalLayout_47.setObjectName(u"horizontalLayout_47")
         self.myreviewdesc_allreviews = QLabel(self.scrollAreaWidgetContents_2)
@@ -2021,7 +2278,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_30.addWidget(self.myrewiewframe_allreviews)
 
-        self.frame_122 = QFrame(self.page)
+        self.frame_122 = QFrame(self.reviewlist)
         self.frame_122.setObjectName(u"frame_122")
         self.frame_122.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
         self.frame_122.setFrameShape(QFrame.StyledPanel)
@@ -2050,14 +2307,14 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_30.addWidget(self.frame_122)
 
-        self.frame_108 = QFrame(self.page)
-        self.frame_108.setObjectName(u"frame_108")
-        self.frame_108.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
-        self.frame_108.setFrameShape(QFrame.StyledPanel)
-        self.frame_108.setFrameShadow(QFrame.Raised)
-        self.horizontalLayout_46 = QHBoxLayout(self.frame_108)
+        self.writereviewframe_allreviews = QFrame(self.reviewlist)
+        self.writereviewframe_allreviews.setObjectName(u"writereviewframe_allreviews")
+        self.writereviewframe_allreviews.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
+        self.writereviewframe_allreviews.setFrameShape(QFrame.StyledPanel)
+        self.writereviewframe_allreviews.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_46 = QHBoxLayout(self.writereviewframe_allreviews)
         self.horizontalLayout_46.setObjectName(u"horizontalLayout_46")
-        self.writereviewbutton_allreviews = QPushButton(self.frame_108)
+        self.writereviewbutton_allreviews = QPushButton(self.writereviewframe_allreviews)
         self.writereviewbutton_allreviews.setObjectName(u"writereviewbutton_allreviews")
         self.writereviewbutton_allreviews.setMinimumSize(QSize(150, 40))
         self.writereviewbutton_allreviews.setMaximumSize(QSize(150, 40))
@@ -2082,14 +2339,14 @@ class Ui_MainWindow(object):
         self.horizontalLayout_46.addWidget(self.writereviewbutton_allreviews)
 
 
-        self.verticalLayout_30.addWidget(self.frame_108)
+        self.verticalLayout_30.addWidget(self.writereviewframe_allreviews)
 
-        self.body.addWidget(self.page)
-        self.page_2 = QWidget()
-        self.page_2.setObjectName(u"page_2")
-        self.verticalLayout_27 = QVBoxLayout(self.page_2)
+        self.body.addWidget(self.reviewlist)
+        self.reviewmovie = QWidget()
+        self.reviewmovie.setObjectName(u"reviewmovie")
+        self.verticalLayout_27 = QVBoxLayout(self.reviewmovie)
         self.verticalLayout_27.setObjectName(u"verticalLayout_27")
-        self.frame_100 = QFrame(self.page_2)
+        self.frame_100 = QFrame(self.reviewmovie)
         self.frame_100.setObjectName(u"frame_100")
         self.frame_100.setMinimumSize(QSize(0, 81))
         self.frame_100.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
@@ -2187,7 +2444,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_27.addWidget(self.frame_100)
 
-        self.frame_103 = QFrame(self.page_2)
+        self.frame_103 = QFrame(self.reviewmovie)
         self.frame_103.setObjectName(u"frame_103")
         self.frame_103.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
         self.frame_103.setFrameShape(QFrame.StyledPanel)
@@ -2210,7 +2467,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_27.addWidget(self.frame_103)
 
-        self.frame_124 = QFrame(self.page_2)
+        self.frame_124 = QFrame(self.reviewmovie)
         self.frame_124.setObjectName(u"frame_124")
         self.frame_124.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
         self.frame_124.setFrameShape(QFrame.StyledPanel)
@@ -2250,8 +2507,9 @@ class Ui_MainWindow(object):
         self.starbutton_1.setObjectName(u"starbutton_1")
         self.starbutton_1.setMinimumSize(QSize(55, 55))
         self.starbutton_1.setMaximumSize(QSize(55, 55))
+        self.starbutton_1.setCursor(QCursor(Qt.PointingHandCursor))
         icon11 = QIcon()
-        icon11.addFile(u"data/img/star_filled_small.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon11.addFile(u"data/img/star_default_small.png", QSize(), QIcon.Normal, QIcon.Off)
         self.starbutton_1.setIcon(icon11)
         self.starbutton_1.setIconSize(QSize(55, 55))
 
@@ -2261,6 +2519,7 @@ class Ui_MainWindow(object):
         self.starbutton_2.setObjectName(u"starbutton_2")
         self.starbutton_2.setMinimumSize(QSize(55, 55))
         self.starbutton_2.setMaximumSize(QSize(55, 55))
+        self.starbutton_2.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_2.setIcon(icon11)
         self.starbutton_2.setIconSize(QSize(55, 55))
 
@@ -2270,6 +2529,7 @@ class Ui_MainWindow(object):
         self.starbutton_3.setObjectName(u"starbutton_3")
         self.starbutton_3.setMinimumSize(QSize(55, 55))
         self.starbutton_3.setMaximumSize(QSize(55, 55))
+        self.starbutton_3.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_3.setIcon(icon11)
         self.starbutton_3.setIconSize(QSize(55, 55))
 
@@ -2279,6 +2539,7 @@ class Ui_MainWindow(object):
         self.starbutton_4.setObjectName(u"starbutton_4")
         self.starbutton_4.setMinimumSize(QSize(55, 55))
         self.starbutton_4.setMaximumSize(QSize(55, 55))
+        self.starbutton_4.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_4.setIcon(icon11)
         self.starbutton_4.setIconSize(QSize(55, 55))
 
@@ -2288,6 +2549,7 @@ class Ui_MainWindow(object):
         self.starbutton_5.setObjectName(u"starbutton_5")
         self.starbutton_5.setMinimumSize(QSize(55, 55))
         self.starbutton_5.setMaximumSize(QSize(55, 55))
+        self.starbutton_5.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_5.setIcon(icon11)
         self.starbutton_5.setIconSize(QSize(55, 55))
 
@@ -2297,6 +2559,7 @@ class Ui_MainWindow(object):
         self.starbutton_6.setObjectName(u"starbutton_6")
         self.starbutton_6.setMinimumSize(QSize(55, 55))
         self.starbutton_6.setMaximumSize(QSize(55, 55))
+        self.starbutton_6.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_6.setIcon(icon11)
         self.starbutton_6.setIconSize(QSize(55, 55))
 
@@ -2306,6 +2569,7 @@ class Ui_MainWindow(object):
         self.starbutton_7.setObjectName(u"starbutton_7")
         self.starbutton_7.setMinimumSize(QSize(55, 55))
         self.starbutton_7.setMaximumSize(QSize(55, 55))
+        self.starbutton_7.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_7.setIcon(icon11)
         self.starbutton_7.setIconSize(QSize(55, 55))
 
@@ -2315,6 +2579,7 @@ class Ui_MainWindow(object):
         self.starbutton_8.setObjectName(u"starbutton_8")
         self.starbutton_8.setMinimumSize(QSize(55, 55))
         self.starbutton_8.setMaximumSize(QSize(55, 55))
+        self.starbutton_8.setCursor(QCursor(Qt.PointingHandCursor))
         self.starbutton_8.setIcon(icon11)
         self.starbutton_8.setIconSize(QSize(55, 55))
 
@@ -2324,9 +2589,8 @@ class Ui_MainWindow(object):
         self.starbutton_9.setObjectName(u"starbutton_9")
         self.starbutton_9.setMinimumSize(QSize(55, 55))
         self.starbutton_9.setMaximumSize(QSize(55, 55))
-        icon12 = QIcon()
-        icon12.addFile(u"data/img/star_default_small.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.starbutton_9.setIcon(icon12)
+        self.starbutton_9.setCursor(QCursor(Qt.PointingHandCursor))
+        self.starbutton_9.setIcon(icon11)
         self.starbutton_9.setIconSize(QSize(55, 55))
 
         self.horizontalLayout_44.addWidget(self.starbutton_9)
@@ -2335,7 +2599,8 @@ class Ui_MainWindow(object):
         self.starbutton_10.setObjectName(u"starbutton_10")
         self.starbutton_10.setMinimumSize(QSize(55, 55))
         self.starbutton_10.setMaximumSize(QSize(55, 55))
-        self.starbutton_10.setIcon(icon12)
+        self.starbutton_10.setCursor(QCursor(Qt.PointingHandCursor))
+        self.starbutton_10.setIcon(icon11)
         self.starbutton_10.setIconSize(QSize(55, 55))
 
         self.horizontalLayout_44.addWidget(self.starbutton_10)
@@ -2353,7 +2618,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_27.addWidget(self.frame_124)
 
-        self.frame_107 = QFrame(self.page_2)
+        self.frame_107 = QFrame(self.reviewmovie)
         self.frame_107.setObjectName(u"frame_107")
         self.frame_107.setStyleSheet(u"background-color: rgb(255, 255, 255, 0)")
         self.frame_107.setFrameShape(QFrame.StyledPanel)
@@ -2387,7 +2652,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_27.addWidget(self.frame_107)
 
-        self.body.addWidget(self.page_2)
+        self.body.addWidget(self.reviewmovie)
 
         self.horizontalLayout_2.addWidget(self.body)
 
@@ -2402,7 +2667,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.body.setCurrentIndex(3)
+        self.body.setCurrentIndex(4)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -2413,14 +2678,17 @@ class Ui_MainWindow(object):
         self.label_16.setText(QCoreApplication.translate("MainWindow", u"Register", None))
         self.label_17.setText("")
         self.label_18.setText(QCoreApplication.translate("MainWindow", u"Email", None))
-        self.label_19.setText(QCoreApplication.translate("MainWindow", u"Password", None))
+        self.label_19.setText(QCoreApplication.translate("MainWindow", u"Username", None))
+        self.label_26.setText(QCoreApplication.translate("MainWindow", u"First name", None))
+        self.label_28.setText(QCoreApplication.translate("MainWindow", u"Last name", None))
+        self.label_25.setText(QCoreApplication.translate("MainWindow", u"Password", None))
         self.label_22.setText(QCoreApplication.translate("MainWindow", u"Confirm Password", None))
         self.registerbutton_register.setText(QCoreApplication.translate("MainWindow", u"Register", None))
         self.label_20.setText(QCoreApplication.translate("MainWindow", u"Already have an account?", None))
         self.loginbutton_register.setText(QCoreApplication.translate("MainWindow", u"Login now!", None))
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"Login", None))
         self.label_13.setText("")
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Email", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Email/username", None))
         self.label_12.setText(QCoreApplication.translate("MainWindow", u"Password", None))
         self.loginbutton_login.setText(QCoreApplication.translate("MainWindow", u"Login", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Don't have an account?", None))
@@ -2475,6 +2743,10 @@ class Ui_MainWindow(object):
         self.movietitle_moviedetails.setText(QCoreApplication.translate("MainWindow", u"How to Train Your Dragon: The Hidden World ", None))
         self.ratingscount_moviedetails.setText(QCoreApplication.translate("MainWindow", u"Ratings: 9.1 based on 982392 reviews", None))
         self.synopsis_moviedetails.setText(QCoreApplication.translate("MainWindow", u"When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.", None))
+        self.myrating_moviedetails.setText(QCoreApplication.translate("MainWindow", u"My Review - \u26059", None))
+        self.editreviewbutton_moviedetails.setText(QCoreApplication.translate("MainWindow", u"Edit", None))
+        self.deletereviewbutton_moviedetails.setText(QCoreApplication.translate("MainWindow", u"Delete", None))
+        self.myreviewdesc_moviedetails.setText(QCoreApplication.translate("MainWindow", u"This movie is amazing! I teared up a bit towards the ending of the movie. Didn't thought it would be that sad.", None))
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"User Reviews", None))
         self.viewallbutton_moviedetails.setText(QCoreApplication.translate("MainWindow", u"View All", None))
 
@@ -2515,6 +2787,7 @@ class Ui_MainWindow(object):
 "__________________________________________________________________________________________________________________", None));
         self.reviewslist_moviedetails.setSortingEnabled(__sortingEnabled1)
 
+        self.writereviewbutton_moviedetails.setText(QCoreApplication.translate("MainWindow", u"Write a Review", None))
         self.backbutton_profile.setText(QCoreApplication.translate("MainWindow", u"Back", None))
         self.label_29.setText(QCoreApplication.translate("MainWindow", u"Profile", None))
         self.homebutton_profile.setText(QCoreApplication.translate("MainWindow", u"Home", None))
@@ -2527,7 +2800,7 @@ class Ui_MainWindow(object):
         self.myreviewsbutton_profile.setText(QCoreApplication.translate("MainWindow", u"My Reviews", None))
         self.label_24.setText(QCoreApplication.translate("MainWindow", u"User Info", None))
         self.emailinfo_profile.setText(QCoreApplication.translate("MainWindow", u"Email: user@email.com", None))
-        self.emailinfo_profile_2.setText(QCoreApplication.translate("MainWindow", u"Username: daixiez", None))
+        self.usernameinfo_profile.setText(QCoreApplication.translate("MainWindow", u"Username: daixiez", None))
         self.label_33.setText(QCoreApplication.translate("MainWindow", u"Change password", None))
         self.label_35.setText(QCoreApplication.translate("MainWindow", u"Current Pass.", None))
         self.label_34.setText(QCoreApplication.translate("MainWindow", u"New Pass.", None))
@@ -2561,13 +2834,13 @@ class Ui_MainWindow(object):
 "This movie is amazing! I teared up a bit towards the ending of the movie. Didn't thought it would be that sad.", None));
         self.alluserreviewslist_allreviews.setSortingEnabled(__sortingEnabled3)
 
-        self.writereviewbutton_allreviews.setText(QCoreApplication.translate("MainWindow", u"Write Review", None))
+        self.writereviewbutton_allreviews.setText(QCoreApplication.translate("MainWindow", u"Write a Review", None))
         self.backbutton_reviewnow.setText(QCoreApplication.translate("MainWindow", u"Back", None))
         self.moviename_reviewnow.setText(QCoreApplication.translate("MainWindow", u"How To Train Your Dragon", None))
         self.homebutton_reviewnow.setText(QCoreApplication.translate("MainWindow", u"Home", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"Review description", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"How would you rate this movie? ", None))
-        self.expressionstar_reviewnow.setText(QCoreApplication.translate("MainWindow", u"I love it!", None))
+        self.expressionstar_reviewnow.setText("")
         self.starbutton_1.setText("")
         self.starbutton_2.setText("")
         self.starbutton_3.setText("")
