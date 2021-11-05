@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>859</width>
-    <height>854</height>
+    <width>941</width>
+    <height>886</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>0</width>
-    <height>0</height>
+    <height>100</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -74,8 +74,8 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>814</width>
-            <height>1091</height>
+            <width>896</width>
+            <height>1203</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -103,7 +103,7 @@
               </size>
              </property>
              <property name="currentIndex">
-              <number>4</number>
+              <number>2</number>
              </property>
              <widget class="QWidget" name="register_2">
               <layout class="QVBoxLayout" name="verticalLayout_16">
@@ -350,12 +350,6 @@ font: 26pt &quot;Bahnschrift SemiCondensed&quot;;</string>
                      </item>
                      <item>
                       <widget class="QFrame" name="frame_54">
-                       <property name="minimumSize">
-                        <size>
-                         <width>0</width>
-                         <height>0</height>
-                        </size>
-                       </property>
                        <property name="maximumSize">
                         <size>
                          <width>16777215</width>
@@ -509,160 +503,6 @@ font: 11pt &quot;Century Gothic&quot;;</string>
                            </item>
                            <item>
                             <widget class="QFrame" name="frame_57">
-                             <property name="frameShape">
-                              <enum>QFrame::StyledPanel</enum>
-                             </property>
-                             <property name="frameShadow">
-                              <enum>QFrame::Raised</enum>
-                             </property>
-                            </widget>
-                           </item>
-                          </layout>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QFrame" name="frame_108">
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <layout class="QHBoxLayout" name="horizontalLayout_56">
-                           <item>
-                            <widget class="QFrame" name="frame_111">
-                             <property name="frameShape">
-                              <enum>QFrame::StyledPanel</enum>
-                             </property>
-                             <property name="frameShadow">
-                              <enum>QFrame::Raised</enum>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QLabel" name="label_26">
-                             <property name="minimumSize">
-                              <size>
-                               <width>200</width>
-                               <height>0</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>200</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">font: 14pt &quot;Bahnschrift SemiCondensed&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>First name</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QLineEdit" name="firstname_register">
-                             <property name="minimumSize">
-                              <size>
-                               <width>0</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>410</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgba(255, 255, 255, 255);
-font: 11pt &quot;Century Gothic&quot;;</string>
-                             </property>
-                             <property name="echoMode">
-                              <enum>QLineEdit::Normal</enum>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QFrame" name="frame_116">
-                             <property name="frameShape">
-                              <enum>QFrame::StyledPanel</enum>
-                             </property>
-                             <property name="frameShadow">
-                              <enum>QFrame::Raised</enum>
-                             </property>
-                            </widget>
-                           </item>
-                          </layout>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QFrame" name="frame_117">
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <layout class="QHBoxLayout" name="horizontalLayout_58">
-                           <item>
-                            <widget class="QFrame" name="frame_118">
-                             <property name="frameShape">
-                              <enum>QFrame::StyledPanel</enum>
-                             </property>
-                             <property name="frameShadow">
-                              <enum>QFrame::Raised</enum>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QLabel" name="label_28">
-                             <property name="minimumSize">
-                              <size>
-                               <width>200</width>
-                               <height>0</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>200</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">font: 14pt &quot;Bahnschrift SemiCondensed&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>Last name</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QLineEdit" name="lastname_register">
-                             <property name="minimumSize">
-                              <size>
-                               <width>0</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>410</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgba(255, 255, 255, 255);
-font: 11pt &quot;Century Gothic&quot;;</string>
-                             </property>
-                             <property name="echoMode">
-                              <enum>QLineEdit::Normal</enum>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QFrame" name="frame_126">
                              <property name="frameShape">
                               <enum>QFrame::StyledPanel</enum>
                              </property>
@@ -1293,26 +1133,26 @@ font: 26pt &quot;Bahnschrift SemiCondensed&quot;;</string>
                          <widget class="QLabel" name="label">
                           <property name="minimumSize">
                            <size>
-                            <width>200</width>
+                            <width>150</width>
                             <height>0</height>
                            </size>
                           </property>
                           <property name="maximumSize">
                            <size>
-                            <width>200</width>
+                            <width>150</width>
                             <height>16777215</height>
                            </size>
                           </property>
                           <property name="styleSheet">
-                           <string notr="true">font: 14pt &quot;Bahnschrift SemiCondensed&quot;;</string>
+                           <string notr="true">font: 14pt &quot;Bahnschrift&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>Email/username</string>
+                           <string>Email</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="useremail_login">
+                         <widget class="QLineEdit" name="email_login">
                           <property name="minimumSize">
                            <size>
                             <width>0</width>
@@ -1367,13 +1207,13 @@ font: 11pt &quot;Century Gothic&quot;;</string>
                          <widget class="QLabel" name="label_12">
                           <property name="minimumSize">
                            <size>
-                            <width>200</width>
+                            <width>150</width>
                             <height>0</height>
                            </size>
                           </property>
                           <property name="maximumSize">
                            <size>
-                            <width>200</width>
+                            <width>150</width>
                             <height>16777215</height>
                            </size>
                           </property>
@@ -2088,6 +1928,21 @@ QPushButton:pressed {
              </widget>
              <widget class="QWidget" name="moviedetail">
               <layout class="QVBoxLayout" name="verticalLayout_4">
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="leftMargin">
+                <number>9</number>
+               </property>
+               <property name="topMargin">
+                <number>9</number>
+               </property>
+               <property name="rightMargin">
+                <number>9</number>
+               </property>
+               <property name="bottomMargin">
+                <number>9</number>
+               </property>
                <item>
                 <widget class="QFrame" name="frame_3">
                  <property name="minimumSize">
@@ -2645,7 +2500,7 @@ QPushButton::hover{
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>792</width>
+                       <width>878</width>
                        <height>87</height>
                       </rect>
                      </property>
@@ -2684,7 +2539,7 @@ QPushButton::hover{
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>500</height>
+                   <height>700</height>
                   </size>
                  </property>
                  <property name="styleSheet">
@@ -2786,12 +2641,6 @@ QPushButton::hover{
                   </item>
                   <item>
                    <widget class="QListWidget" name="reviewslist_moviedetails">
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>0</height>
-                     </size>
-                    </property>
                     <property name="styleSheet">
                      <string notr="true">font: 9.5pt &quot;Century Gothic&quot;;</string>
                     </property>
@@ -2840,59 +2689,6 @@ DreamWorks has created a beautiful 3D animation. The story is a beautiful one of
 __________________________________________________________________________________________________________________</string>
                      </property>
                     </item>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-               <item>
-                <widget class="QFrame" name="writereviewframe_moviedetails">
-                 <property name="styleSheet">
-                  <string notr="true">background-color: rgb(255, 255, 255, 0)</string>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QHBoxLayout" name="horizontalLayout_55">
-                  <item>
-                   <widget class="QPushButton" name="writereviewbutton_moviedetails">
-                    <property name="minimumSize">
-                     <size>
-                      <width>150</width>
-                      <height>40</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>150</width>
-                      <height>40</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QPushButton {	
-	border-radius: 20px;
-	background-color: rgba(102, 97, 234, 70);
-	color: rgb(0,0,0);
-	font: 12pt &quot;Bahnschrift SemiCondensed&quot;;
-}
-QPushButton:hover {	
-	background-color: rgba(72, 67, 181, 80);
-	color: rgb(255,255,255);
-	font: 12pt &quot;Bahnschrift SemiCondensed&quot;;
-}
-QPushButton:pressed {	
-	background-color: rgba(72, 67, 181, 130);
-	color: rgb(255,255,255);
-	font: 12pt &quot;Bahnschrift SemiCondensed&quot;;
-}
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Write a Review</string>
-                    </property>
                    </widget>
                   </item>
                  </layout>
@@ -3185,16 +2981,10 @@ font: 63 28pt &quot;Bahnschrift SemiBold Condensed&quot;;</string>
                         </item>
                         <item>
                          <widget class="QFrame" name="frame_72">
-                          <property name="minimumSize">
-                           <size>
-                            <width>0</width>
-                            <height>50</height>
-                           </size>
-                          </property>
                           <property name="maximumSize">
                            <size>
                             <width>16777215</width>
-                            <height>16777215</height>
+                            <height>36</height>
                            </size>
                           </property>
                           <property name="frameShape">
@@ -3421,6 +3211,16 @@ QPushButton:pressed {
                              </property>
                             </widget>
                            </item>
+                           <item>
+                            <widget class="QFrame" name="frame_77">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                            </widget>
+                           </item>
                           </layout>
                          </widget>
                         </item>
@@ -3509,7 +3309,7 @@ QPushButton:pressed {
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="usernameinfo_profile">
+                         <widget class="QLabel" name="emailinfo_profile_2">
                           <property name="minimumSize">
                            <size>
                             <width>0</width>
@@ -3631,9 +3431,6 @@ QPushButton:pressed {
                           <property name="styleSheet">
                            <string notr="true">background-color: rgba(255, 255, 255, 255);
 font: 11pt &quot;Century Gothic&quot;;</string>
-                          </property>
-                          <property name="echoMode">
-                           <enum>QLineEdit::Password</enum>
                           </property>
                          </widget>
                         </item>
@@ -4121,7 +3918,7 @@ This movie is amazing! I teared up a bit towards the ending of the movie. Didn't
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="reviewlist">
+             <widget class="QWidget" name="page">
               <layout class="QVBoxLayout" name="verticalLayout_30">
                <item>
                 <widget class="QFrame" name="frame_79">
@@ -4467,7 +4264,7 @@ QPushButton::hover{
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>792</width>
+                       <width>895</width>
                        <height>115</height>
                       </rect>
                      </property>
@@ -4547,7 +4344,7 @@ This movie is amazing! I teared up a bit towards the ending of the movie. Didn't
                 </widget>
                </item>
                <item>
-                <widget class="QFrame" name="writereviewframe_allreviews">
+                <widget class="QFrame" name="frame_108">
                  <property name="styleSheet">
                   <string notr="true">background-color: rgb(255, 255, 255, 0)</string>
                  </property>
@@ -4592,7 +4389,7 @@ QPushButton:pressed {
 </string>
                     </property>
                     <property name="text">
-                     <string>Write a Review</string>
+                     <string>Write Review</string>
                     </property>
                    </widget>
                   </item>
@@ -4601,7 +4398,7 @@ QPushButton:pressed {
                </item>
               </layout>
              </widget>
-             <widget class="QWidget" name="reviewmovie">
+             <widget class="QWidget" name="page_2">
               <layout class="QVBoxLayout" name="verticalLayout_27">
                <item>
                 <widget class="QFrame" name="frame_100">
@@ -4868,7 +4665,7 @@ font: 63 20pt &quot;Bahnschrift SemiBold Condensed&quot;;
 font: 14pt &quot;Century Gothic&quot;;</string>
                     </property>
                     <property name="text">
-                     <string/>
+                     <string>I love it!</string>
                     </property>
                     <property name="alignment">
                      <set>Qt::AlignCenter</set>
@@ -4908,15 +4705,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -4940,15 +4734,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -4972,15 +4763,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5004,15 +4792,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5036,15 +4821,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5068,15 +4850,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5100,15 +4879,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5132,15 +4908,12 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <height>55</height>
                         </size>
                        </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
-                       </property>
                        <property name="text">
                         <string/>
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>data/img/star_default_small.png</normaloff>data/img/star_default_small.png</iconset>
+                         <normaloff>data/img/star_filled_small.png</normaloff>data/img/star_filled_small.png</iconset>
                        </property>
                        <property name="iconSize">
                         <size>
@@ -5163,9 +4936,6 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <width>55</width>
                          <height>55</height>
                         </size>
-                       </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
                        </property>
                        <property name="text">
                         <string/>
@@ -5195,9 +4965,6 @@ font: 14pt &quot;Century Gothic&quot;;</string>
                          <width>55</width>
                          <height>55</height>
                         </size>
-                       </property>
-                       <property name="cursor">
-                        <cursorShape>PointingHandCursor</cursorShape>
                        </property>
                        <property name="text">
                         <string/>
