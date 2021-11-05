@@ -132,28 +132,50 @@ class MainWindow(QMainWindow):
                         self._star_button[j].setIcon(QtGui.QIcon('data/img/star_default_small.png'))
                     self.ui.expressionstar_reviewnow.setText(self._rating_phrases[star - 1])
 
-        def get_reviews():
+        def get_reviews(index=5):
             self.ui.reviewslist_moviedetails.clear()
+            self.ui.alluserreviewslist_allreviews.clear()
             try:
                 reviews = self._database.getReview(self._movie_all[self.ui.movielist_movielist.currentRow()][0])
                 userIDs = []
-                for review in reviews:
+                for count, review in enumerate(reviews):
                     userIDs.append(review[2])
-                    self.ui.reviewslist_moviedetails.addItem(QListWidgetItem(QIcon('data/img/login_border_small.png'),
-                                                                             f'{self._database.getUser(review[2])[0][0]}'
-                                                                             f'\n★ {review[-1]}'
-                                                                             f'\n{review[-2]}'
-                                                                             f'\n__________________________________________________________________________________________'))
+                    self.ui.alluserreviewslist_allreviews.addItem(
+                        QListWidgetItem(QIcon('data/img/login_border_small.png'),
+                                        f'{self._database.getUser(review[2])[0][0]}'
+                                        f'\n★ {review[-1]}'
+                                        f'\n{review[-2]}'
+                                        f'\n__________________________________________________________________________________________'))
+                    if count <= index:
+                        self.ui.reviewslist_moviedetails.addItem(
+                            QListWidgetItem(QIcon('data/img/login_border_small.png'),
+                                            f'{self._database.getUser(review[2])[0][0]}'
+                                            f'\n★ {review[-1]}'
+                                            f'\n{review[-2]}'
+                                            f'\n__________________________________________________________________________________________'))
+
                 print(reviews)
                 print(self._database.getCurrentUser())
                 if self._database.getCurrentUser()[0][0] in userIDs:
                     self.ui.writereviewframe_moviedetails.hide()
                     self.ui.myreviewframe_moviedetails.show()
-                    self.ui.myrating_moviedetails.setText(f"My Review - ★ {self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-1]}")
-                    self.ui.myreviewdesc_moviedetails.setText(self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-2])
+                    self.ui.myrating_moviedetails.setText(
+                        f"My Review - ★ {self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-1]}")
+                    self.ui.myreviewdesc_moviedetails.setText(
+                        self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-2])
+
+                    self.ui.writereviewframe_allreviews.hide()
+                    self.ui.myrewiewframe_allreviews.show()
+                    self.ui.myrating_allreviews.setText(
+                        f"My Review - ★ {self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-1]}")
+                    self.ui.myreviewdesc_allreviews.setText(
+                        self._database.getIndividualReview(self._database.getCurrentUser()[0][0])[-1][-2])
                 else:
                     self.ui.writereviewframe_moviedetails.show()
                     self.ui.myreviewframe_moviedetails.hide()
+
+                    self.ui.writereviewframe_allreviews.show()
+                    self.ui.myrewiewframe_allreviews.hide()
             except:
                 pass
 
@@ -183,14 +205,14 @@ class MainWindow(QMainWindow):
             elif widget_name == 'reviewmovie' and condition == 'new':
                 self._visited.append(self.ui.body.currentIndex())
                 self.ui.reviewdesc_textbox_reviewnow.setText('')
-                self.ui.body.setCurrentWidget(self.ui.reviewmovie)
+                self.ui.body.setCurrentWidget(widget)
                 star_button_clicked()
 
             elif widget_name == 'reviewmovie' and condition == 'edit':
                 self._visited.append(self.ui.body.currentIndex())
                 self.ui.reviewdesc_textbox_reviewnow.setText(self.ui.myreviewdesc_moviedetails.text())
                 star_button_clicked(int(self.ui.myrating_moviedetails.text()[-1]))
-                self.ui.body.setCurrentWidget(self.ui.reviewmovie)
+                self.ui.body.setCurrentWidget(widget)
 
             else:
                 self._visited.append(self.ui.body.currentIndex())
@@ -292,8 +314,10 @@ class MainWindow(QMainWindow):
         # configuring stacked widget - movie details
         self.ui.profilebutton_moviedetails.clicked.connect(lambda: setWidget(self.ui.profile))
         self.ui.backbutton_moviedetails.clicked.connect(lambda: back())
+        self.ui.writereviewbutton_moviedetails.clicked.connect(lambda: setWidget(self.ui.reviewmovie, 'new'))
         self.ui.editreviewbutton_moviedetails.clicked.connect(lambda: setWidget(self.ui.reviewmovie, 'edit'))
         # self.ui.deletereviewbutton_moviedetails.clicked.connect(lambda: delete_review()) ## create a method to delete user review
+        self.ui.viewallbutton_moviedetails.clicked.connect(lambda: setWidget(self.ui.reviewlist))
 
         # configuring stacked widget - profile
         self.ui.backbutton_profile.clicked.connect(lambda: back())
@@ -307,6 +331,11 @@ class MainWindow(QMainWindow):
         self.ui.backbutton_myreviews.clicked.connect(lambda: back())
 
         # configuring stacked widget - review list
+        self.ui.backbutton_allreviews.clicked.connect(lambda: back())
+        self.ui.homebutton_allreviews.clicked.connect(lambda: setWidget(self.ui.movielist))
+        self.ui.writereviewbutton_allreviews.clicked.connect(lambda: setWidget(self.ui.reviewmovie, 'new'))
+        self.ui.editreviewbutton_allreviews.clicked.connect(lambda: setWidget(self.ui.reviewmovie, 'edit'))
+        # self.ui.deletereviewbutton_moviedetails.clicked.connect(lambda: delete_review()) ## create a method to delete user review
 
         # configuring stacked widget - review movie
         # self.ui.submitreviewbutton_reviewnow.clicked.connect(lambda: publishReview()) ## create a method to store user review
