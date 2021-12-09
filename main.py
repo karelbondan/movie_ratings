@@ -12,7 +12,20 @@ try:
     from PySide2.QtGui import (QIcon, QMovie)
     from PySide2.QtWidgets import *
 except ImportError:
-    subprocess.call('pip install -r requirements.txt', shell=True, cwd='')
+    print('Error importing modules, installing all depedencies as a bulk...')
+    subprocess.call('pip install -r requirements.txt', shell=True, cwd='data/script/')
+    print('Success! Opening the application...')
+    import ctypes
+    import re
+    import signal
+    import sys
+    import urllib.request
+    import bcrypt
+    import cv2
+    from PySide2 import QtGui
+    from PySide2.QtCore import (Qt, Signal, QObject, Slot, QThread, QTimer)
+    from PySide2.QtGui import (QIcon, QMovie)
+    from PySide2.QtWidgets import *
 
 import database
 from gui import Ui_MainWindow
@@ -43,7 +56,6 @@ class Worker(QObject):
     def __init__(self):
         QObject.__init__(self)
         self._prohibited_chars = ['/', '\\', ':', '*', '?', '"', '<', '>', '|', '·']
-        # self._database = database.DatabaseFilm()
 
     def _strip_movie_name(self, movie_name: str):
         if ' ' in movie_name:
