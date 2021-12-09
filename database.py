@@ -310,14 +310,3 @@ class DatabaseFilm:
 #     print('please check your credentails')
 # except NoUserFoundError:
 #     print('no user found. please register first')
-
-# passwords:
-# xiez = thisispassword
-# daiko = password123
-# boris = iamboris2021
-# drazeros = rawr2021
-# karelbondan = amazing1
-# dong.xi.hua.1995 = donghua1995
-# wargreymon = digimonadv1
-# blackwargreymon = digimonadv1
-# yak = ayayayak_
